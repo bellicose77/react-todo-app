@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Register from './components/Register/Register';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hello world </h2>
-      <h3>Welcome to new react</h3>
+    <div>
+      <h2>TO DO app</h2>
+      <Register></Register>
     </div>
   );
 }
